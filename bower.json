@@ -12,7 +12,7 @@
     "Alexander Dragoset"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/ArchonInfoSys/Knockout-Date-Range-Picker",
+  "homepage": "https://github.com/ArchonInfoSys/knockout-date-range-picker",
   "ignore": [
     "**/.*",
     "node_modules",
