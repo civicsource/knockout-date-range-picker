@@ -17,7 +17,6 @@ You can bind a start date or end date allow dates in the future or toggle allowi
 
 ###Date Range Picker
 ```html
-<div class="txt-date" data-bind="dateRangePicker: { start: startDate, end: endDate, allowFutureDates: false, allowTodayStartDate: false }">
+<div data-bind="dateRangePicker: { start: startDate, end: endDate, allowFutureDates: false, allowTodayStartDate: false }">
 ```
 
-The browser will not navigate to the `/remove` link until the user confirms the action.
