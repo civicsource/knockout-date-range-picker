@@ -1,4 +1,12 @@
-define(["jquery", "knockout", "lodash", "moment", "jquery.ui/datepicker"], function ($, ko, _, moment) {
+(function (root, factory) {
+	if (typeof define === 'function' && define.amd) {
+		// AMD. Register as an anonymous module.
+		define(["jquery", "knockout", "lodash", "moment", "jquery.ui/datepicker"], factory);
+	} else {
+		// Browser globals
+		factory($, ko, _, moment);
+	}
+}(this, function ($, ko, _, moment) {
 	ko.bindingHandlers.dateRangePicker = {
 		init: function (element, valueAccessor) {
 			$(element).find('.startDate').datepicker();
@@ -63,4 +71,4 @@ define(["jquery", "knockout", "lodash", "moment", "jquery.ui/datepicker"], funct
 		}
 
 	}
-});
+}));
