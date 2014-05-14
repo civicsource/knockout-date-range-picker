@@ -1,4 +1,4 @@
-#Knockout Inline Confirm Binding
+#Knockout Date Range Picker Binding
 
 > A simple knockout binding that allows you to select a date range.
 
