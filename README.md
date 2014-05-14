@@ -13,7 +13,7 @@ Then add `knockout-date-range-picker.js` to your project.
 ##How to Use
 
 Include the script on your page (either via a normal script tag or via an AMD loader). Then bind it to a div.
-You can bind a start date or end date allow dates in the future or toggle allowing todaye as a start date by using the arguments in the binding example below.
+You can bind a start date or end date allow dates in the future or toggle allowing today as a start date by using the arguments in the binding example below.
 
 ###Date Range Picker
 ```html
