@@ -1,0 +1,23 @@
+{
+  "name": "knockout-date-range-picker",
+  "version": "0.1",
+  "description": "knockout-date-range-picker.js",
+  "main": "[\".jshintrc\", \"**/*.txt\"]",
+  "keywords": [
+    "knockout",
+    "datepicker",
+    "jquery.ui"
+  ],
+  "authors": [
+    "Alexander Dragoset"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ArchonInfoSys/Knockout-Date-Range-Picker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
