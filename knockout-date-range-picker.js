@@ -1,5 +1,5 @@
 define(["jquery", "knockout", "lodash", "moment", "jquery.ui/datepicker"], function ($, ko, _, moment) {
-	ko.bindingHandlers.datePicker = {
+	ko.bindingHandlers.dateRangePicker = {
 		init: function (element, valueAccessor) {
 			$(element).find('.startDate').datepicker();
 			$(element).find('.endDate').datepicker();
