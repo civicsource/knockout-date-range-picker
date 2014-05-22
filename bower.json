@@ -1,15 +1,15 @@
 {
   "name": "knockout-date-range-picker",
-  "version": "0.1",
-  "description": "knockout-date-range-picker.js",
-  "main": "[\".jshintrc\", \"**/*.txt\"]",
+  "version": "1.0.0",
+  "description": "Simple knockout binding that wraps jQuery UI's date picker script for a range of inputs.",
+  "main": "knockout.date-range-picker.js",
   "keywords": [
     "knockout",
     "datepicker",
     "jquery.ui"
   ],
   "authors": [
-    "Alexander Dragoset"
+    "Archon Information Systems"
   ],
   "license": "MIT",
   "homepage": "https://github.com/ArchonInfoSys/knockout-date-range-picker",
@@ -21,10 +21,10 @@
     "tests"
   ],
   "dependencies": {
-    "knockout.js": "~3.0.0",
-    "jquery": "~2.1.0",
+     "knockout": "~3.1.0",
+    "jquery": "~1.10",
     "lodash": "~2.4.1",
-    "moment":"~2.5.1",
-    "jquery.ui":"~1.11.0"
+    "jquery.ui": "~1.10.4",
+    "moment":"~2.6.0"
   }
 }
